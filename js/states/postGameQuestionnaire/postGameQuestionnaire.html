@@ -1,0 +1,9 @@
+<div ng-repeat="postGameQuestionnaire in postGameQuestionnaireCtrl.allQuestionnaires">
+	<div ng-if="postGameQuestionnaireCtrl.questionnaireIndex == $index">
+		<form ng-submit="postGameQuestionnaireCtrl.onSubmit(postGameQuestionnaire.id)" novalidate>
+			<formly-form model="postGameQuestionnaire.model" fields="postGameQuestionnaire.postGameQuestionnaire" form="postGameQuestionnaire.id">
+				<button type="submit" class="btn btn-primary btn-lg submit-button" ng-disabled="postGameQuestionnaire.id.$invalid">Submit</button>
+			</formly-form>
+		</form>
+	</div>
+</div>

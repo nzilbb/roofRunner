@@ -1,0 +1,32 @@
+[
+    {
+        "key": "hearingLoss",
+        "type": "radio",
+				"templateOptions": {
+            "label": "Do you have a history of hearing loss in either ear that you are aware of?",
+            "options": [
+								{
+									"name": "No",
+									"value": "No"
+								},
+                {
+                    "name": "Yes - both ears",
+                    "value": "Yes - both ears"
+                },
+                {
+                    "name": "Yes - left ear",
+                    "value": "Yes - left ear"
+                },
+								{
+                    "name": "Yes - right ear",
+                    "value": "Yes - right ear"
+                },
+                {
+                    "name": "Decline to answer",
+                    "value": "Decline"
+                }
+            ],
+            "required": true
+        }
+    }
+]

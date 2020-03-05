@@ -1,0 +1,14 @@
+<p class="status-text">
+  {{experimentCtrl.status}}
+  <b ng-if="experimentCtrl.preloaderService.percentLoaded<100">{{experimentCtrl.preloaderService.percentLoaded}}%</b>
+</p>
+<response-controls
+   id="responsControls"
+   current-item="experimentCtrl.currentItem"
+   list-items="experimentCtrl.listItems"
+   index="experimentCtrl.index" exp-id="experimentCtrl.expId"
+   list-completed="experimentCtrl.gotoEnd()"
+   ng-hide="experimentCtrl.hideResponseControls"
+   response-button-clicked="experimentCtrl.responseButtonClicked"
+   after-response-button-clicked="experimentCtrl.afterResponseButtonClicked"></response-controls>
+<canvas id="gameCanvas" width="800" height="600" ></canvas>

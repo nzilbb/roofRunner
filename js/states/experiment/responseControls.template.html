@@ -1,0 +1,90 @@
+<div class="responseControls" ng-hide="responseControlsCtrl.sentenceFrame==null">
+  <div class="row text-left top-buffer">
+    <div class="well">
+      <div ng-bind-html='responseControlsCtrl.sentenceFrame'></div>
+      <div class="row">
+        <button type="button" class="btn btn-primary pull-right" ng-click="responseControlsCtrl.instructionsButtonClicked()">
+          NEXT
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="responseControls" ng-show="responseControlsCtrl.sentenceFrame==null">
+  <div class="row text-center top-buffer">
+    <div ng-class="responseControlsCtrl.interlocutor == null ? 'bubble-no-tail' : 'bubble'" id="promptBubble" ng-hide="responseControlsCtrl.hidePromptBubble">
+      <div class="vcenter-div">
+        <h4 style="margin-top:0px">{{responseControlsCtrl.promptTitle}}</h4>
+        <img ng-src="{{responseControlsCtrl.promptImage}}" alt="prompt image" ng-show="responseControlsCtrl.promptImage == null ? false : true"/>
+        <h4 ng-show="responseControlsCtrl.promptName == null ? false : true"><strong>{{responseControlsCtrl.promptName}}</strong></h4>
+	<!-- robert TODO make promptName and promptSound conditional? -->
+	<audio ng-show="false" preload="auto" controls autoplay ng-src="{{responseControlsCtrl.promptSound}}" onplay="document.getElementById('promptBubble').style.opacity = 1;document.getElementById('bubbleHero').style.opacity = 0;" onpause="document.getElementById('promptBubble').style.opacity = 0.1; window.setTimeout(function() {document.getElementById('bubbleHero').style.opacity = 1;}, 200);"/>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="bubbleHero" id="bubbleHero">
+      <div class="vcenter-div">
+        <img ng-src="{{responseControlsCtrl.targetImage}}" alt="target image" ng-show="responseControlsCtrl.targetImage==null ? false : true"/>
+        <div class="row" style="padding-top:5px">
+          <!-- text button 1-->
+          <button type="button" class="btn btn-primary" ng-show="responseControlsCtrl.button1Label == null ? false : true"
+		  id="{{responseControlsCtrl.button1Label}}"
+		  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button1Label)">
+            {{responseControlsCtrl.button1Label}}
+          </button>
+
+          <!-- image button 1-->
+          <button type="button" class="btn btn-custom" ng-show="responseControlsCtrl.button1Image==null ? false : true"
+		  id="{{responseControlsCtrl.button1ImageLabel}}"
+		  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button1ImageLabel)">
+            <img ng-src="{{responseControlsCtrl.button1Image}}" alt="button 1"/>
+          </button>
+
+          <!-- text button 2-->
+          <button type="button" class="btn btn-primary" ng-show="responseControlsCtrl.button2Label == null ? false : true"
+		  id="{{responseControlsCtrl.button2Label}}"
+		  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button2Label)">
+            {{responseControlsCtrl.button2Label}}
+          </button>
+
+          <!-- image button 2-->
+          <button type="button" class="btn btn-custom" ng-show="responseControlsCtrl.button2Image==null ? false : true"
+		  id="{{responseControlsCtrl.button2ImageLabel}}" 
+		  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button2ImageLabel)">
+            <img ng-src="{{responseControlsCtrl.button2Image}}" alt="button 2"/>
+          </button>
+        </div>
+        <div class="row top-buffer">
+          <!-- text button 3-->
+          <button type="button" class="btn btn-primary" ng-show="responseControlsCtrl.button3Label == null ? false : true"
+		  id="{{responseControlsCtrl.button3Label}}"
+                  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button3Label)">
+            {{responseControlsCtrl.button3Label}}
+          </button>
+
+          <!-- image button 3-->
+          <button type="button" class="btn btn-custom" ng-show="responseControlsCtrl.button3Image==null ? false : true"
+		  id="{{responseControlsCtrl.button3ImageLabel}}" 
+		  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button3ImageLabel)">
+            <img ng-src="{{responseControlsCtrl.button3Image}}" alt="button 3"/>
+          </button>
+
+          <!-- text button 4-->
+          <button type="button" class="btn btn-primary" ng-show="responseControlsCtrl.button4Label == null ? false : true"
+		  id="{{responseControlsCtrl.button4Label}}"
+                  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button4Label)">
+            {{responseControlsCtrl.button4Label}}
+          </button>
+
+          <!-- image button 4-->
+          <button type="button" class="btn btn-custom" ng-show="responseControlsCtrl.button4Image==null ? false : true"
+		  id="{{responseControlsCtrl.button4ImageLabel}}" 
+		  ng-click="responseControlsCtrl.buttonClicked(responseControlsCtrl.button4ImageLabel)">
+            <img ng-src="{{responseControlsCtrl.button4Image}}" alt="button 4"/>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

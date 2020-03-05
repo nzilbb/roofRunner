@@ -1,0 +1,22 @@
+<div class="row top-buffer">
+	<div class="col-md-offset-1 col-md-10">
+		<div ng-include="consentCtrl.consentPath" onload="consentCtrl.consentLoaded()">
+
+		</div>
+	</div>
+</div>
+<div class="row text-center top-buffer vcenter">
+	<div class="col-sm-offset-1 col-sm-10 text-center">
+		<button type="button" class="btn btn-warning btn-lg" ng-click="consentCtrl.declineClicked()"
+		ng-disabled="consentCtrl.ready==true ? false : true">
+			DECLINE
+			<span class="glyphicon glyphicon-remove"></span>
+		</button>
+		<button type="button" class="btn btn-primary btn-lg" ng-click="consentCtrl.acceptClicked()"
+		ng-disabled="consentCtrl.ready==true ? false : true">
+			ACCEPT
+			<span class="glyphicon glyphicon-ok"></span>
+		</button>
+	</div>
+</div>
+<hr></hr>

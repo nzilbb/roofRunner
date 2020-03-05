@@ -1,0 +1,68 @@
+[
+	{
+		"promptImage" : "candleholder_adult_01.png",
+		"targetImage" : "candleholder_child_01.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "GUK",
+		"imageButton" : false,
+		"interlocutor" : "adult_female.png",
+		"correctAnswer" : ["gukrul"],
+		"targetName" : ["gukrul","gukrik"]
+	},
+	{
+		"promptImage" : "gate_adult_01.png",
+		"targetImage" : "gate_child_01.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "WIS",
+		"imageButton" : false,
+		"interlocutor" : "adult_female.png",
+		"correctAnswer" : ["wisrul"],
+		"targetName" : ["wisrul","wisrik"]
+	},
+	{
+		"promptImage" : "mushroom_adult_01.png",
+		"targetImage" : "mushroom_child_01.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "FIS",
+		"imageButton" : false,
+		"interlocutor" : "adult_male.png",
+		"correctAnswer" : ["fisrul"],
+		"targetName" : ["fisrul","fisrik"]
+	},
+	{
+		"promptImage" : "bokchoy_adult_01.png",
+		"targetImage" : "bokchoy_child_01.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "BAL",
+		"imageButton" : false,
+		"interlocutor" : "adult_male.png",
+		"correctAnswer" : ["balrul"],
+		"targetName" : ["balrul","balrik"]
+	},
+	{
+		"promptImage" : null,
+		"targetImage" : null,
+		"phase" : "test",
+		"promptTitle" : "Which of the items below is this?",
+		"promptName" : "FEK",
+		"imageButton" : true,
+		"interlocutor" : null,
+		"correctAnswer" : ["bear_small.png"],
+		"targetName" : ["bear_small.png","asteroid_small.png", "basket_small.png","bokchoy_small.png"]
+	},
+	{
+		"promptImage" : null,
+		"targetImage" : null,
+		"phase" : "test",
+		"promptTitle" : "Which of the items below is this?",
+		"promptName" : "BAL",
+		"imageButton" : true,
+		"interlocutor" : null,
+		"correctAnswer" : ["bokchoy_small.png"],
+		"targetName" : ["bear_small.png","asteroid_small.png", "basket_small.png","bokchoy_small.png"]
+	}
+]

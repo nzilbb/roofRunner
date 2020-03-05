@@ -1,0 +1,102 @@
+[
+  {
+    "noFormControl":true,
+    "template":"<h2>Personal Information</h2>"
+  },
+    {
+        "key": "gender",
+        "type": "radio",
+        "templateOptions": {
+            "label": "Gender",
+            "options": [
+                {
+                    "name": "Male",
+                    "value": "Male"
+                },
+                {
+                    "name": "Female",
+                    "value": "Female"
+                },
+                {
+                    "name": "Decline to answer",
+                    "value": "Decline"
+                }
+            ],
+            "required": true
+        }
+    },
+    {
+        "key": "ethnicity",
+        "type": "radio",
+        "templateOptions": {
+            "label": "Ethnicity",
+            "options": [
+                {
+                    "name": "Hispanic",
+                    "value": "Hispanic"
+                },
+                {
+                    "name": "Not Hispanic or Latino",
+                    "value": "Not Hispanic or Latino"
+                },
+                {
+                    "name": "Decline to answer",
+                    "value": "Decline"
+                }
+            ],
+            "required": true
+        }
+    },
+    {
+        "key": "race",
+        "type": "radio",
+        "templateOptions": {
+            "label": "Race",
+            "options": [
+                {
+                    "name": "American Indian or Alaska Native",
+                    "value": "American Indian or Alaska Native"
+                },
+                {
+                    "name": "Asian",
+                    "value": "Asian"
+                },
+                {
+                    "name": "Native Hawaiian or other Pacific Islander",
+                    "value": "Native Hawaiian or other Pacific Islander"
+                },
+                {
+                    "name": "African American or Black",
+                    "value": "African American or Black"
+                },
+                {
+                    "name": "White",
+                    "value": "White"
+                },
+                {
+                    "name": "More than one race",
+                    "value": "More than one race"
+                },
+                {
+                    "name": "Other",
+                    "value": "Other"
+                },
+                {
+                    "name": "Decline to answer",
+                    "value": "Decline"
+                }
+            ],
+            "required": true
+        }
+    },
+    {
+        "key": "age",
+        "type": "input",
+        "templateOptions": {
+            "label": "Age",
+            "required": true,
+            "pattern": "^\\d+$",
+            "description": "Enter 0 if you do not want to provide your age"
+        }
+    }
+]

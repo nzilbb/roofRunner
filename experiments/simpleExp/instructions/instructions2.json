@@ -1,0 +1,31 @@
+[
+	{
+		"title":"Instructions",
+		"instructions":[
+			{"paragraph":"In this experiment your character is this flying creature.",
+			"image":"hero_character.png"}
+		]
+	},
+	{
+		"title":"Instructions",
+		"instructions":[
+			{"paragraph":"Your character is on a journey.",
+			"image":"roof_hop.png"},
+			{
+				"paragraph":"Your goal is to get to the end of the game by hopping forward from one roof to the next."
+			}
+		]
+	},
+	{
+		"title":"Instructions",
+		"instructions":[
+			{"paragraph":"You will encounter various characters along the way who will try to communicate with you."}
+		]
+	},
+	{
+		"title":"Instructions",
+		"instructions":[
+			{"paragraph":"If you pick the correct answer, you will move forward. If not, you will fall back to the previous roof top."}
+		]
+	}
+]

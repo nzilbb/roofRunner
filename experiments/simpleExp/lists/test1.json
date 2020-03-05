@@ -1,0 +1,68 @@
+[
+	{
+		"promptImage" : "bear_adult_male_01.png",
+		"targetImage" : "bear_child_01.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "FEK",
+		"imageButton" : false,
+		"interlocutor" : "adult_female.png",
+		"correctAnswer" : ["fekrul"],
+		"targetName" : ["fekrul","fekrik"]
+	},
+	{
+		"promptImage" : "chair_adult_02.png",
+		"targetImage" : "chair_child_02.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "WUN",
+		"imageButton" : false,
+		"interlocutor" : "adult_female.png",
+		"correctAnswer" : ["wunrul"],
+		"targetName" : ["wunrul","wunrik"]
+	},
+	{
+		"promptImage" : "fox_adult_male_01.png",
+		"targetImage" : "fox_child_01.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "QIK",
+		"imageButton" : false,
+		"interlocutor" : "adult_male.png",
+		"correctAnswer" : ["qikrul"],
+		"targetName" : ["qikrul","qikrik"]
+	},
+	{
+		"promptImage" : "pitcher_adult_01.png",
+		"targetImage" : "pitcher_child_01.png",
+		"phase" : "training",
+		"promptTitle" : null,
+		"promptName" : "ZER",
+		"imageButton" : false,
+		"interlocutor" : "adult_male.png",
+		"correctAnswer" : ["zerrul"],
+		"targetName" : ["zerrul","zerrik"]
+	},
+	{
+		"promptImage" : null,
+		"targetImage" : null,
+		"phase" : "test",
+		"promptTitle" : "Which of the items below is this?",
+		"promptName" : "QIK",
+		"imageButton" : true,
+		"interlocutor" : null,
+		"correctAnswer" : ["bear_small.png"],
+		"targetName" : ["chair_small.png","asteroid_small.png", "basket_small.png","fox_small.png"]
+	},
+	{
+		"promptImage" : null,
+		"targetImage" : null,
+		"phase" : "test",
+		"promptTitle" : "Which of the items below is this?",
+		"promptName" : "WUN",
+		"imageButton" : true,
+		"interlocutor" : null,
+		"correctAnswer" : ["bokchoy_small.png"],
+		"targetName" : ["chair_small.png","asteroid_small.png", "basket_small.png","fox_small.png"]
+	}
+]

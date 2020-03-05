@@ -1,0 +1,146 @@
+[
+    {
+        "key": "howMuchFun",
+        "type": "radio",
+				"templateOptions": {
+            "label": "How much fun was the game?",
+            "options": [
+								{
+									"name": "1 - No fun",
+									"value": "1"
+								},
+                {
+									"name": "2",
+									"value": "2"
+								},
+                {
+									"name": "3",
+									"value": "3"
+								},
+                {
+									"name": "4",
+									"value": "4"
+								},
+                {
+									"name": "5 - Very fun",
+									"value": "5"
+								}
+            ],
+            "required": false
+        }
+    },
+    {
+        "key": "howMuchFunComment",
+        "type": "input",
+        "templateOptions": {
+            "label": "Optional comment:",
+            "required": false
+        }
+    },
+    {
+        "key": "pacing",
+        "type": "radio",
+				"templateOptions": {
+            "label": "What did you think of the pacing of the game?",
+            "options": [
+								{
+									"name": "1 - Too slow",
+									"value": "1"
+								},
+                {
+									"name": "2",
+									"value": "2"
+								},
+                {
+									"name": "3",
+									"value": "3"
+								},
+                {
+									"name": "4",
+									"value": "4"
+								},
+                {
+									"name": "5 - Too fast",
+									"value": "5"
+								}
+            ],
+            "required": false
+        }
+    },
+    {
+        "key": "pacingComment",
+        "type": "input",
+        "templateOptions": {
+            "label": "Optional comment:",
+            "required": false
+        }
+    },
+    {
+        "key": "difficulty",
+        "type": "radio",
+        "templateOptions": {
+            "label": "How difficult was the game?",
+            "options": [
+                {
+                  "name": "1 - Too easy",
+                  "value": "1"
+                },
+                {
+                  "name": "2",
+                  "value": "2"
+                },
+                {
+                  "name": "3",
+                  "value": "3"
+                },
+                {
+                  "name": "4",
+                  "value": "4"
+                },
+                {
+                  "name": "5 - Too hard",
+                  "value": "5"
+                }
+            ],
+            "required": false
+        }
+    },
+    {
+        "key": "difficultyComment",
+        "type": "input",
+        "templateOptions": {
+            "label": "Optional comment:",
+            "required": false
+        }
+    },
+    {
+        "key": "randomGuessing",
+        "type": "radio",
+        "templateOptions": {
+            "label": "How often did you feel you were guessing at random?",
+            "options": [
+                {
+                  "name": "1 - Never",
+                  "value": "1"
+                },
+                {
+                  "name": "2",
+                  "value": "2"
+                },
+                {
+                  "name": "3",
+                  "value": "3"
+                },
+                {
+                  "name": "4",
+                  "value": "4"
+                },
+                {
+                  "name": "5 - Always",
+                  "value": "5"
+                }
+            ],
+            "required": false
+        }
+    }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "noFormControl":true,
+    "template":"<h2>Language questions</h2>"
+  },
+  {
+    "noFormControl":true,
+    "template":"<p>Please List up to two languages other than English that you know. If you know more than two, list the ones you are most proficient in. If you do not know any other languages please scroll to the bottom of this page and click submit.</p>"
+  },
+    {
+        "key": "language1",
+        "type": "select",
+        "templateOptions": {
+            "label": "Language 1",
+            "options": [
+              {"name":"Brazilian Portuguese", "value":"Brazilian Portuguese"},
+              {"name":"Cantonese", "value":"Cantonese"},
+              {"name":"Chinese (Mandarin)", "value":"Chinese (Mandarin)"},
+              {"name":"Chinese (Taiwanese)", "value":"Chinese (Taiwanese)"},
+              {"name":"Farsi", "value":"Farsi"},
+              {"name":"French", "value":"French"},
+              {"name":"German", "value":"German"},
+              {"name":"Gishu", "value":"Gishu"},
+              {"name":"Greek", "value":"Greek"},
+              {"name":"Gujarati", "value":"Gujarati"},
+              {"name":"Hebrew", "value":"Hebrew"},
+              {"name":"Hindi", "value":"Hindi"},
+              {"name":"Icelandic", "value":"Icelandic"},
+              {"name":"Indonesian", "value":"Indonesian"},
+              {"name":"Japanese", "value":"Japanese"},
+              {"name":"Korean", "value":"Korean"},
+              {"name":"Malay", "value":"Malay"},
+              {"name":"Runyankore", "value":"Runyankore"},
+              {"name":"Russian", "value":"Russian"},
+              {"name":"Sicilian", "value":"Sicilian"},
+              {"name":"Spanish", "value":"Spanish"},
+              {"name":"Spanish Heritage Speaker", "value":"Spanish Heritage Speaker"},
+              {"name":"Thai", "value":"Thai"},
+              {"name":"Turkish", "value":"Turkish"},
+              {"name":"Vietnamese", "value":"Vietnamese"},
+              {"name":"Other", "value":"Other"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "age1",
+        "type": "select",
+        "templateOptions": {
+            "label": "At what age did you begin learning this language?",
+            "options":[
+              {"name":"0 - 6 years old", "value":"0 - 6 years old"},
+              {"name":"7 - 18 years old", "value":"7 - 18 years old"},
+              {"name":"19 - 30 years old", "value":"19 - 30 years old"},
+              {"name":"30 years old or greater", "value":"30 years old or greater"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "lengthOfStudy1",
+        "type": "select",
+        "templateOptions": {
+            "label": "How long did you study this language?",
+            "options":[
+              {"name":"Less than 1 year", "value":"Less than 1 year"},
+              {"name":"1 - 4 years", "value":"1 - 4 years"},
+              {"name":"4 - 10 years", "value":"4 - 10 years"},
+              {"name":"More than 10 years", "value":"More than 10 years"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "whereLearned1",
+        "type": "select",
+        "templateOptions": {
+            "label": "Where/How long did you learn this language?",
+            "options":[
+              {"name":"Home/Parents", "value":"Home/Parents"},
+              {"name":"School", "value":"School"},
+              {"name":"Study Abroad", "value":"Study Abroad"},
+              {"name":"Other", "value":"Other"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "proficiency1",
+        "type": "select",
+        "templateOptions": {
+            "label": "What's your proficiency in this language?",
+            "options":[
+              {"name":"0-None", "value":"0"},
+              {"name":"1-Very Load", "value":"1"},
+              {"name":"2-Low", "value":"2"},
+              {"name":"3-Fair", "value":"3"},
+              {"name":"4-Slightly less than adequate", "value":"4"},
+              {"name":"5-Adequate", "value":"5"},
+              {"name":"6-Slightly more than adequate", "value":"6"},
+              {"name":"7-Good", "value":"7"},
+              {"name":"8-Very Good", "value":"8"},
+              {"name":"9-Excellent", "value":"9"},
+              {"name":"10-Perfect", "value":"10"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+      "noFormControl":true,
+      "template":"<hr></hr>"
+    },
+    {
+        "key": "language2",
+        "type": "select",
+        "templateOptions": {
+            "label": "Language 2",
+            "options": [
+              {"name":"Brazilian Portuguese", "value":"Brazilian Portuguese"},
+              {"name":"Cantonese", "value":"Cantonese"},
+              {"name":"Chinese (Mandarin)", "value":"Chinese (Mandarin)"},
+              {"name":"Chinese (Taiwanese)", "value":"Chinese (Taiwanese)"},
+              {"name":"Farsi", "value":"Farsi"},
+              {"name":"French", "value":"French"},
+              {"name":"German", "value":"German"},
+              {"name":"Gishu", "value":"Gishu"},
+              {"name":"Greek", "value":"Greek"},
+              {"name":"Gujarati", "value":"Gujarati"},
+              {"name":"Hebrew", "value":"Hebrew"},
+              {"name":"Hindi", "value":"Hindi"},
+              {"name":"Icelandic", "value":"Icelandic"},
+              {"name":"Indonesian", "value":"Indonesian"},
+              {"name":"Japanese", "value":"Japanese"},
+              {"name":"Korean", "value":"Korean"},
+              {"name":"Malay", "value":"Malay"},
+              {"name":"Runyankore", "value":"Runyankore"},
+              {"name":"Russian", "value":"Russian"},
+              {"name":"Sicilian", "value":"Sicilian"},
+              {"name":"Spanish", "value":"Spanish"},
+              {"name":"Spanish Heritage Speaker", "value":"Spanish Heritage Speaker"},
+              {"name":"Thai", "value":"Thai"},
+              {"name":"Turkish", "value":"Turkish"},
+              {"name":"Vietnamese", "value":"Vietnamese"},
+              {"name":"Other", "value":"Other"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "age2",
+        "type": "select",
+        "templateOptions": {
+            "label": "At what age did you begin learning this language?",
+            "options":[
+              {"name":"0 - 6 years old", "value":"0 - 6 years old"},
+              {"name":"7 - 18 years old", "value":"7 - 18 years old"},
+              {"name":"19 - 30 years old", "value":"19 - 30 years old"},
+              {"name":"30 years old or greater", "value":"30 years old or greater"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "lengthOfStudy2",
+        "type": "select",
+        "templateOptions": {
+            "label": "How long did you study this language?",
+            "options":[
+              {"name":"Less than 1 year", "value":"Less than 1 year"},
+              {"name":"1 - 4 years", "value":"1 - 4 years"},
+              {"name":"4 - 10 years", "value":"4 - 10 years"},
+              {"name":"More than 10 years", "value":"More than 10 years"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "whereLearned2",
+        "type": "select",
+        "templateOptions": {
+            "label": "Where/How long did you learn this language?",
+            "options":[
+              {"name":"Home/Parents", "value":"Home/Parents"},
+              {"name":"School", "value":"School"},
+              {"name":"Study Abroad", "value":"Study Abroad"},
+              {"name":"Other", "value":"Other"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    },
+    {
+        "key": "proficiency2",
+        "type": "select",
+        "templateOptions": {
+            "label": "What's your proficiency in this language?",
+            "options":[
+              {"name":"0-None", "value":"0"},
+              {"name":"1-Very Load", "value":"1"},
+              {"name":"2-Low", "value":"2"},
+              {"name":"3-Fair", "value":"3"},
+              {"name":"4-Slightly less than adequate", "value":"4"},
+              {"name":"5-Adequate", "value":"5"},
+              {"name":"6-Slightly more than adequate", "value":"6"},
+              {"name":"7-Good", "value":"7"},
+              {"name":"8-Very Good", "value":"8"},
+              {"name":"9-Excellent", "value":"9"},
+              {"name":"10-Perfect", "value":"10"}
+            ],
+            "valueProp":"value",
+            "labelProp":"name",
+            "required": false
+        }
+    }
+]

@@ -1,0 +1,6 @@
+<label>{{options.templateOptions.label}}</label>
+<div class="checkbox" ng-repeat="op in options.templateOptions.options">
+	 	<label>
+			<input type="checkbox" ng-model="model[options.key][op.value]" value="op.value">{{op.name}}
+		</label>
+</div>

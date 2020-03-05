@@ -1,0 +1,47 @@
+<div class="row top-buffer">
+	<div class="col-md-offset-1 col-md-10">
+		<h2>{{instructionsCtrl.title}}</h2>
+	</div>
+</div>
+
+<div ng-repeat="currentInstructions in instructionsCtrl.currentInstructions">
+	<div class="row top-buffer">
+		<div class="col-md-offset-1 col-md-10">
+			<div>
+				<p>
+					{{currentInstructions.paragraph}}
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row text-center">
+	  <div class="col-md-offset-1 col-xs-10">
+			<img ng-src="experiments/{{instructionsCtrl.expId}}/instructions/{{currentInstructions.image}}"
+			alt="currentInstructions.image" class="img-responsive center-image"
+			ng-show="currentInstructions.image"/>
+	  </div>
+	</div>
+</div>
+
+<div class="row text-center top-buffer vcenter">
+	<div class="col-xs-4">
+		<button type="button" class="btn btn-primary btn-lg"
+		ng-click="instructionsCtrl.prevClicked()"
+		ng-disabled="instructionsCtrl.instructionsIndex==0 ? true : false">
+			PREV
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</button>
+	</div>
+	<div class="col-xs-4">
+		<p>
+			{{instructionsCtrl.instructionsIndex+1}}/{{instructionsCtrl.instructions.length}}
+		</p>
+	</div>
+	<div class="col-xs-4">
+    <button type="button" class="btn btn-primary btn-lg"
+		ng-click="instructionsCtrl.nextClicked()">
+      NEXT
+			<span class="glyphicon glyphicon-chevron-right"></span>
+    </button>
+  </div>
+</div>

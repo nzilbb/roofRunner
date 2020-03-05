@@ -1,0 +1,8 @@
+<div class="form-group" ng-class="{'has-error':showError}">
+  <label>{{options.templateOptions.label}}</label>
+  <select class="form-control"
+          ng-model="model[options.key]"
+          ng-options="option[to.valueProp || 'value'] as option[to.labelProp || 'name'] group by option[to.groupProp || 'group'] for option in to.options">
+          <option value="" style="display:none" selected='selected'>Please Select...</option>
+  </select>
+</div>

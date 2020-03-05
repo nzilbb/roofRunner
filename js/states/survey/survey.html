@@ -1,0 +1,9 @@
+<div ng-repeat="survey in surveyCtrl.allSurveys">
+	<div ng-if="surveyCtrl.surveyIndex == $index">
+		<form ng-submit="surveyCtrl.onSubmit(survey.id)" novalidate>
+			<formly-form model="survey.model" fields="survey.survey" form="survey.id">
+				<button type="submit" class="btn btn-primary btn-lg submit-button" ng-disabled="survey.id.$invalid">Submit</button>
+			</formly-form>
+		</form>
+	</div>
+</div>

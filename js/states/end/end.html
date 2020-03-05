@@ -1,0 +1,15 @@
+<div class="row text-center">
+	<div class="col-xs-12">
+		<h2>Thank You. Experiment Completed!</h2>
+	</div>
+</div>
+<div class="row text-center" ng-hide="endCtrl.mode=='inlab'">
+	<div class="col-xs-12">
+		<p>
+			Please click the button below to submit your data and return to Mechanical Turk
+		</p>
+		<a type="button" class="btn btn-primary btn-lg" ng-href="{{endCtrl.submitUrl}}" ng-disabled="endCtrl.submitDisabled">
+		  Submit & Return to MTurk
+		</a>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+[
+    {
+        "key": "badItems",
+        "type": "input",
+        "templateOptions": {
+            "label": "Did any items in the game seem really bad to you? If so, which?",
+            "required": false
+        }
+    },
+		{
+        "key": "likedItems",
+        "type": "input",
+        "templateOptions": {
+            "label": "Did you especially like any items in the game? If so, which?",
+            "required": false
+        }
+    }
+]

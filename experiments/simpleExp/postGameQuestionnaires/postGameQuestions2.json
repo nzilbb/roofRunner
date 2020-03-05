@@ -1,0 +1,86 @@
+[
+    {
+        "key": "figureOutCorrectAnswers",
+        "type": "input",
+        "templateOptions": {
+            "label": "Did you figure out a way to provide correct answers? If so, please try to explain it in a sentence or two.",
+            "required": false
+        }
+    },
+		{
+        "key": "testStageSeenItems",
+        "type": "radio",
+        "templateOptions": {
+            "label": "During the test (or tests) in your game, what percentage of the items do you think you had already seen before during the training?",
+						"options": [
+								{
+									"name": "1 - None",
+									"value": "1"
+								},
+                {
+									"name": "2",
+									"value": "2"
+								},
+                {
+									"name": "3",
+									"value": "3"
+								},
+                {
+									"name": "4",
+									"value": "4"
+								},
+                {
+									"name": "5 - All",
+									"value": "5"
+								}
+            ],
+            "required": false
+        }
+    },
+    {
+        "key": "testStageSeenItemsComment",
+        "type": "input",
+        "templateOptions": {
+            "label": "Optional comment:",
+            "required": false
+        }
+    },
+    {
+        "key": "repetition",
+        "type": "radio",
+        "templateOptions": {
+            "label": "Do you think the game involved a lot of repetition?",
+            "options": [
+                {
+                  "name": "1 - Too repetitive",
+                  "value": "1"
+                },
+                {
+                  "name": "2",
+                  "value": "2"
+                },
+                {
+                  "name": "3",
+                  "value": "3"
+                },
+                {
+                  "name": "4",
+                  "value": "4"
+                },
+                {
+                  "name": "5 - More repetitions needed",
+                  "value": "5"
+                }
+            ],
+            "required": false
+        }
+    },
+    {
+        "key": "repetitionsComment",
+        "type": "input",
+        "templateOptions": {
+            "label": "Optional comment:",
+            "required": false
+        }
+    }
+]
