@@ -4,7 +4,7 @@ This paradigm is used in Rácz, Hay, and Pierrehumbert [2017](https://www.fronti
 
 Thanks to: Chun Liang Chan, Robert Fromont, and Kayo Takasugi.
 
-To try out the game, use the following URL:
+To try out a stripped-down version of the game, use the following URL:
 
 [https://nzilbb.github.io/roofRunner/#/?expId=simpleExp](https://nzilbb.github.io/roofRunner/#/?expId=simpleExp)
 
